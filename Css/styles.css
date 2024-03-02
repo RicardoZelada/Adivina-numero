@@ -1,0 +1,45 @@
+body{
+    margin: 0;
+    padding: 0;
+    background:  #17202A;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.nav-title{
+    width: 50%;
+    border-radius: 4px;
+    text-align: center;
+    background: #292b2e;
+    color: greenyellow;
+    font-family: "Source Code Pro", monospace;
+    font-size: 20px;
+    padding: 10px 4px 10px 4px;
+}
+
+.nav-title h5{
+    margin: 0;
+}
+
+.card-body{
+    width: 50%;
+    padding: 4px;
+    border: 1px solid rgba(255,255, 255, 0.2);
+    border-radius: 4px;
+    margin-top: 10px;
+    color: azure;
+    font-family: "Source Code Pro", monospace;
+    text-align: center;
+}
+
+.card-body input{
+    width: calc(100% - 20%);
+    margin-bottom: 10px;
+    text-align: center;
+}
