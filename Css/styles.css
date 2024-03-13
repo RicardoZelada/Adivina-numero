@@ -28,7 +28,7 @@ section{
 }
 
 .card-body{
-    width: 50%;
+    width: calc(100% - 20%);
     padding: 4px;
     border: 1px solid rgba(255,255, 255, 0.2);
     border-radius: 4px;
@@ -40,6 +40,6 @@ section{
 
 .card-body input{
     width: calc(100% - 20%);
-    margin-bottom: 10px;
+    margin-bottom: 50px;
     text-align: center;
 }
